@@ -51,9 +51,10 @@ count, and whether guests should RSVP. Do not guess a date or timezone.
    `set_rsvp_capacity` to close acceptances once the venue is full
    (counts people, companions included; `null` removes the cap),
    `set_rsvp_admission` to make self-registrations wait for the organizer's
-   approval, or to open a waitlist once the cap is reached (filling freed
-   places from it automatically emails each guest let in, so the organizer
-   switches that on in the Fotify dashboard),
+   approval, or to open a waitlist once the cap is reached. Filling freed
+   places from the waitlist automatically (`waitlistAutoPromote`) emails
+   each guest let in, starting with places already free, so switch it on
+   only after the organizer agreed to those emails,
    `set_rsvp_comments` for the free-text box, `set_guest_names_enabled` to
    name each companion, `get_rsvp_notifications` / `set_rsvp_notifications`
    for who is emailed every answer.

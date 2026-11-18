@@ -92,12 +92,13 @@ people. The guest list works even when RSVP is off.
   full event): `list_rsvp_requests`. Report the pending ones oldest first and
   the waitlist in queue order, with the places left (`capacity.seatsLeft`).
 - Decide with `review_rsvp_requests` (`approve`, `decline`, or `waitlist`
-  for a pending registration). Read the names and the decision back to the
-  organizer and wait for a yes first. From here guests are not emailed about
-  the decision. When the organizer wants each guest told, suggest deciding in
-  the Fotify dashboard (Guests > Requests) instead, which emails them. Approving can go past the maximum confirmed
-  guests; say so when `capacity.seatsLeft` is smaller than the parties being
-  approved.
+  for a pending registration). The decision emails each guest (with their
+  invitation link) unless you pass `notifyGuests: false`. Before calling it,
+  read the names and the decision back to the organizer, say whether each
+  guest will be emailed, and wait for a yes. Pass `notifyGuests: false`
+  unless the organizer said the guests should be told. Approving can go past
+  the maximum confirmed guests; say so when `capacity.seatsLeft` is smaller
+  than the parties being approved.
 - The settings themselves are `set_rsvp_admission` (plan-event skill).
 
 ## Do not

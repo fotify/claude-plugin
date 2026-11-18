@@ -47,8 +47,10 @@ has; plans and account settings stay in the Fotify dashboard.
 
 ## Safeguards
 
-- Emails to guests are only sent after Claude has shown you who will
-  receive them and you have confirmed. Fotify's servers enforce this.
+- Invitation, save-the-date and reminder emails are only sent after Claude
+  has shown you who will receive them and you have confirmed; Fotify's
+  servers enforce this. Claude also asks before an RSVP approval or decline
+  emails the guest, or before switching on automatic waitlist emails.
 - Invitation designs stay in drafts until you approve publishing one.
 - Claude asks before deleting anything.
 - Uploading files from your device and setting passwords stay in the Fotify
