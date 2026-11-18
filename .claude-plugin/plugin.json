@@ -1,0 +1,25 @@
+{
+  "name": "fotify",
+  "displayName": "Fotify",
+  "version": "1.0.0",
+  "description": "Run your Fotify event from Claude: events, digital invitations with RSVP, guest lists, seating, invitation design with preview links, guest emails sent only after you confirm, the guest photo gallery, the planning hub and door check-in.",
+  "author": {
+    "name": "Fotify",
+    "email": "support@fotify.app",
+    "url": "https://fotify.app"
+  },
+  "homepage": "https://fotify.app/ai-assistant",
+  "repository": "https://github.com/fotify/claude-plugin",
+  "privacyPolicyUrl": "https://fotify.app/privacy-policy",
+  "license": "MIT",
+  "keywords": [
+    "fotify",
+    "event planning",
+    "wedding",
+    "rsvp",
+    "digital invitations",
+    "guest list",
+    "seating chart",
+    "photo sharing"
+  ]
+}
