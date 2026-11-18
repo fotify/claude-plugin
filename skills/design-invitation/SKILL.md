@@ -23,8 +23,12 @@ without the organizer's go-ahead.
 2. `design_get_draft`: the current draft, live section settings, revision
    history and the event's asset library (images usable as the cover or in
    the carousel).
-3. `design_get_capabilities` once per conversation for templates, palette and
-   typography options; `design_list_recipes` for ready-made compositions.
+3. `design_get_capabilities` for the vocabulary: templates, palette and
+   typography options. On its own it summarizes each template, so call it
+   again with `templateId` before patching a template: the draft's template
+   from `design_get_draft`, and again for any template you switch to. That
+   call returns the template's colour knobs, the cover settings it honours
+   and its text slots. `design_list_recipes` for ready-made compositions.
 
 ## Step 1b: Let the organizer pick from the gallery
 

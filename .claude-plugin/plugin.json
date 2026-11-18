@@ -1,7 +1,7 @@
 {
   "name": "fotify",
   "displayName": "Fotify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run your Fotify event from Claude: events, digital invitations with RSVP, guest lists, seating, invitation design with preview links, guest emails sent only after you confirm, the guest photo gallery, the planning hub and door check-in.",
   "author": {
     "name": "Fotify",
